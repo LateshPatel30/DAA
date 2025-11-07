@@ -29,15 +29,22 @@ public class fibo {
 
         // Iterative version
         fibIterative(n);
+        System.out.println("Time Complexity: O(n)");
+        System.out.println("Space Complexity: O(1)");
+        System.out.println();
 
         // Recursive version
         System.out.print("Fibonacci Series (Recursive): ");
         for (int i = 0; i < n; i++) {
             System.out.print(fibRecursive(i) + " ");
         }
+        System.out.println("Time Complexity: O(2^n)");
+        System.out.println("Space Complexity: O(n)");
         System.out.println();
     }
 }
+
+
 
 
 
