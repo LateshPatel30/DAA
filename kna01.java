@@ -29,5 +29,7 @@ public class kna01 {
         System.out.println("Maximum Profit in 0/1 Knapsack = " + dp[n][W]);
     }
 }
+// time O(n × W)
+// space O(W)
 
 
