@@ -34,4 +34,6 @@ public class napSack {
         System.out.println("fianal value  : "+finalVal);
     }
 }
+// Time Complexity: O(n log n)
+//Space Complexity: O(n)
 
