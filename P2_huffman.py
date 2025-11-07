@@ -61,4 +61,6 @@ if __name__ == "__main__":
     print("--------------------------------")
     for ch, code in codes.items():
         print(f"{ch} -> {code}")
+# O(n log n)
+# O(n)
 
