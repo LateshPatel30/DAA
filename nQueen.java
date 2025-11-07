@@ -56,4 +56,7 @@ public class nQueen{
         nQueen(board, 0);
 
     }
+
 }
+// Time Complexity: O(N! × N)
+// Space Complexity: O(N²)
